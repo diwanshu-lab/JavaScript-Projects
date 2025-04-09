@@ -30,14 +30,20 @@ $(document).ready(function () {
     });
 
     // smooth scrolling
-
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top,
         }, 500, 'linear')
-    })
+    });
 });
+
+// 1. Yeh custom links ka object bana lo
+const customViewLinks = {
+    "Impress_Your_Love": "https://impress-your-love.vercel.app/",
+   
+    // jitne chaho yahan add karte jao...
+};
 
 // fetch projects
 const projectsContainer = document.getElementById('projects-container');
@@ -46,26 +52,31 @@ let project = '';
 fetch('./assets/js/projects.json')
     .then(res => res.json())
     .then(projects => {
-        // console.log(projects);
-
         projects.forEach(proj => {
-            // console.log(proj);
+            // Check if custom view link exists
+            const viewLink = customViewLinks[proj.name] 
+                ? customViewLinks[proj.name] 
+                : `projects/${proj.meta}`;
+
             project += `
-    <div class="box">
-        <img src="./assets/projects-img/${proj.meta}.png" alt="project">
-        <div class="content">
-        <h3>${proj.name}</h3>
-        <p>${proj.desc}</p>
-        <div class="btns">
-            <a href="projects/${proj.meta}" class="btn"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/diwanshu-lab/JavaScript-Projects/tree/main/projects/${proj.meta}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-        </div>
-        </div>
-    </div>`;
+                <div class="box">
+                    <img src="./assets/projects-img/${proj.meta}.png" alt="project">
+                    <div class="content">
+                        <h3>${proj.name}</h3>
+                        <p>${proj.desc}</p>
+                        <div class="btns">
+                            <a href="${viewLink}" class="btn" ${customViewLinks[proj.name] ? 'target="_blank"' : ''}>
+                                <i class="fas fa-eye"></i> View
+                            </a>
+                            <a href="https://github.com/diwanshu-lab/JavaScript-Projects/tree/main/projects/${proj.meta}" class="btn" target="_blank">
+                                Code <i class="fas fa-code"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>`;
         });
         projectsContainer.innerHTML = project;
     });
-
 
 // text animation
 var _CONTENT = [
