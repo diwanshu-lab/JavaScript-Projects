@@ -7,7 +7,7 @@ A **mobile-optimized web application** built with **React, Vite, and Tailwind CS
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Aoudumber-Bade/Impress_Your_Love.git
+git clone https://github.com/diwanshu-lab/JavaScript-Projects.git
 cd Impress_Your_Love
 ```
 
