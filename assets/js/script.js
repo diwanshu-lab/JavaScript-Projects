@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
@@ -34,16 +33,9 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top,
-        }, 500, 'linear')
+        }, 500, 'linear');
     });
 });
-
-// 1. Yeh custom links ka object bana lo
-const customViewLinks = {
-    "Impress_Your_Love": "https://impress-your-love.vercel.app/",
-   
-    // jitne chaho yahan add karte jao...
-};
 
 // fetch projects
 const projectsContainer = document.getElementById('projects-container');
@@ -53,10 +45,13 @@ fetch('./assets/js/projects.json')
     .then(res => res.json())
     .then(projects => {
         projects.forEach(proj => {
-            // Check if custom view link exists
-            const viewLink = customViewLinks[proj.name] 
-                ? customViewLinks[proj.name] 
+            const viewLink = proj.customViewLink && proj.customViewLink.trim() !== ""
+                ? proj.customViewLink
                 : `projects/${proj.meta}`;
+
+            const codeLink = proj.customCodeLink && proj.customCodeLink.trim() !== ""
+                ? proj.customCodeLink
+                : `https://github.com/diwanshu-lab/JavaScript-Projects/tree/main/projects/${proj.meta}`;
 
             project += `
                 <div class="box">
@@ -65,10 +60,10 @@ fetch('./assets/js/projects.json')
                         <h3>${proj.name}</h3>
                         <p>${proj.desc}</p>
                         <div class="btns">
-                            <a href="${viewLink}" class="btn" ${customViewLinks[proj.name] ? 'target="_blank"' : ''}>
+                            <a href="${viewLink}" class="btn" ${proj.customViewLink ? 'target="_blank"' : ''}>
                                 <i class="fas fa-eye"></i> View
                             </a>
-                            <a href="https://github.com/diwanshu-lab/JavaScript-Projects/tree/main/projects/${proj.meta}" class="btn" target="_blank">
+                            <a href="${codeLink}" class="btn" target="_blank">
                                 Code <i class="fas fa-code"></i>
                             </a>
                         </div>
@@ -104,7 +99,6 @@ function Type() {
     _PART_INDEX++;
 
     if (text === _CONTENT[_PART]) {
-        // hide the cursor
         _CURSOR.style.display = 'none';
         clearInterval(_INTERVAL_VAL);
         setTimeout(function () {
@@ -121,12 +115,7 @@ function Delete() {
 
     if (text === '') {
         clearInterval(_INTERVAL_VAL);
-
-        if (_PART == (_CONTENT.length - 1))
-            _PART = 0;
-        else
-            _PART++;
-
+        _PART = (_PART + 1) % _CONTENT.length;
         _PART_INDEX = 0;
         setTimeout(function () {
             _CURSOR.style.display = 'inline-block';
@@ -134,4 +123,5 @@ function Delete() {
         }, 200);
     }
 }
+
 _INTERVAL_VAL = setInterval(Type, 100);

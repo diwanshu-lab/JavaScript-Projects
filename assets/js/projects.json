@@ -1,108 +1,191 @@
 [
-  
   {
-    "name": "3D Cube - For Crush ",
+    "name": "A Love Note Just for You...",
+    "desc": "You make my world warmer, brighter, and full of love.",
+    "meta": "A Love Note Just for You",
+    "customViewLink": "https://love-note.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/A-Love-Note-Just-for-You"
+  },
+  {
+    "name": "Book-Style-Code",
+    "desc": "💘 A romantic login page with heart emojis, secret name access, and a surprise redirect – perfect for expressing love in code.",
+    "meta": "Book-Style-Code",
+    "customViewLink": "https://bookstyle.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/Book-Style-Code"
+  },
+  {
+    "name": "Happy-Mother's-Day",
+    "desc": "A sweet Mother's Day surprise page with love, animations, and personal messages. 💐❤️",
+    "meta": "Happy-Mother's-Day",
+    "customViewLink": "https://motherdayv1.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/Happy-Mother-s-Day"
+  },
+  {
+    "name": "surprise-her-2.0",
+    "desc": "💖 First version of Digital Love Note — made with HTML, heart & 💘",
+    "meta": "surprise-her-2.0",
+    "customViewLink": "surprise-her.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/surprise-her-2.0"
+  },
+  {
+    "name": "Birthday-Surprise-For-Her",
+    "desc": "Welcome to my unique birthday surprise project!",
+    "meta": "Animated Reveal Images",
+    "customViewLink": "surprisssss.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/Birthday-Surprise-For-Her"
+  },
+  {
+    "name": "3D Cube - For Crush",
     "desc": "3D rotating love cube with photos and I Love You text.",
-    "meta": "3D-Cube-Image-Animation"
+    "meta": "3D-Cube-Image-Animation",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
-    "name": "Love-You-Heart ",
+    "name": "sorry-mera-babu",
+    "desc": "3D rotating love cube with photos and I Love You text.",
+    "meta": "sorry-mera-babu",
+    "customViewLink": "",
+    "customCodeLink": ""
+  },
+  {
+    "name": "Love-You-Heart",
     "desc": "Love-You-Heart-Animation-Using-HTML-CSS-Javascript",
-    "meta": "Love-You-Heart"
+    "meta": "Love-You-Heart",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
-    "name": "Birthday Wishes Login ",
+    "name": "Birthday Wishes Login",
     "desc": "Birthday Wishes Using HTML CSS & Javascript by Diwanshu | Password - loveyou",
-    "meta": "Happy Birthday Wishes Using HTML CSS and Javascript by Diwanshu"
+    "meta": "Happy Birthday Wishes Using HTML CSS and Javascript by Diwanshu",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Heart Animation v3",
     "desc": "Romantic web page with heart animations and smooth colorful background.",
-    "meta": "Heart Animation v3"
+    "meta": "Heart Animation v3",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Impress_Crush",
     "desc": "Romantic web page with heart animations and smooth colorful background.",
-    "meta": "Impress_Crush"
+    "meta": "Impress_Crush",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Impress_Your_Love",
     "desc": "Impress_Your_Love In This Way | You Can Modify Code As Per Your Need.",
-    "meta": "Impress_Your_Love"
+    "meta": "Impress_Your_Love",
+    "customViewLink": "https://impress-your-love.vercel.app/",
+    "customCodeLink": ""
   },
   {
-    "name": "Happy-Maha-Shivratri ",
+    "name": "Happy-Maha-Shivratri",
     "desc": "Happy-Maha-Shivratri-Animation-Using-HTML & CSS",
-    "meta": "Happy-Maha-Shivratri-Animation-Using-HTML & CSS"
+    "meta": "Happy-Maha-Shivratri-Animation-Using-HTML & CSS",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "WeKeep Notes",
     "desc": "We keep notes saver. Stores Notes in LocalStorage. TailwindCSS",
-    "meta": "wekeep"
+    "meta": "wekeep",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Songify Music Player",
     "desc": "Music Player with play, pause, playlist and all major features. SASS/SCSS",
-    "meta": "songify"
+    "meta": "songify",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Quiz Web App",
     "desc": "Simple quiz application. tailwindCSS framework.",
-    "meta": "quizapp"
+    "meta": "quizapp",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Temperature Converter",
     "desc": "Temperature converter celsius to kelvin and fahrenhiet live.",
-    "meta": "tempconvert"
+    "meta": "tempconvert",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Words Counter",
     "desc": "Words and character counter. Live Counter JavaScript Project.",
-    "meta": "wordcount"
+    "meta": "wordcount",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Simple Stopwatch",
     "desc": "Simple stopwatch with start, stop and reset features.",
-    "meta": "stopwatch"
+    "meta": "stopwatch",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Basic Percentage Calc",
     "desc": "Percentage And Grade Calculator Based On The Marks Enter By The User.",
-    "meta": "percentcalc"
+    "meta": "percentcalc",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Simple Calculator",
     "desc": "Simple Operations Calculator Based On The Two User Inputs.",
-    "meta": "twonumcalc"
+    "meta": "twonumcalc",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Todo List",
     "desc": "Simple Todo List Webapp With Modern UI And Glassmorphism.",
-    "meta": "todo"
+    "meta": "todo",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Age Calculator",
     "desc": "Calculates The Age Of The User. Wishes Too On Birthday.",
-    "meta": "agecalc"
+    "meta": "agecalc",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Password Generator",
     "desc": "A Basic Password Generator As Per The User Selected Criteria.",
-    "meta": "pwdgen"
+    "meta": "pwdgen",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Issue Tracker",
     "desc": "Assign Issue With The Auto Generated Id By Using ChanceJS. Uses LocalStorage.",
-    "meta": "issuetracker"
+    "meta": "issuetracker",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Simple Calculator",
     "desc": "A Simple Caculator Built Using JQuery.",
-    "meta": "basic-calc"
+    "meta": "basic-calc",
+    "customViewLink": "",
+    "customCodeLink": ""
   },
   {
     "name": "Neomorphism Clock",
     "desc": "Basic Neomorphism Clock With Hour, Min, Sec With Light And Dark Mode. Tilt Effect.",
-    "meta": "neoclock"
+    "meta": "neoclock",
+    "customViewLink": "",
+    "customCodeLink": ""
   }
 ]
