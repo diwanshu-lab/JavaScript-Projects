@@ -24,14 +24,14 @@
     "name": "surprise-her-2.0",
     "desc": "💖 First version of Digital Love Note — made with HTML, heart & 💘",
     "meta": "surprise-her-2.0",
-    "customViewLink": "surprise-her.netlify.app/",
+    "customViewLink": "https://surprise-her.netlify.app/",
     "customCodeLink": "https://github.com/diwanshu-lab/surprise-her-2.0"
   },
   {
     "name": "Birthday-Surprise-For-Her",
     "desc": "Welcome to my unique birthday surprise project!",
     "meta": "Animated Reveal Images",
-    "customViewLink": "surprisssss.netlify.app/",
+    "customViewLink": "https://surprisssss.netlify.app/",
     "customCodeLink": "https://github.com/diwanshu-lab/Birthday-Surprise-For-Her"
   },
   {
@@ -45,8 +45,8 @@
     "name": "sorry-mera-babu",
     "desc": "3D rotating love cube with photos and I Love You text.",
     "meta": "sorry-mera-babu",
-    "customViewLink": "",
-    "customCodeLink": ""
+    "customViewLink": "https://sorry-mera-babu.netlify.app/",
+    "customCodeLink": "https://github.com/diwanshu-lab/Sorry-Mera-Babu"
   },
   {
     "name": "Love-You-Heart",
